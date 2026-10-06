@@ -27,4 +27,28 @@ if marks>=35:
         print("you are not eligible for scholarship")
 else:
     print("you haven't passed the exam")
-        
+ ##   
+n=input()
+if n.isupper():
+    print("allow")
+else:
+    print("don't allow")
+#if the given letter is capital letter print small letter 
+#if the given letter is small letter print capital letter
+n = input() 
+if n.isupper():
+    print(n.lower())
+else:
+    print(n.upper())
+    
+#another method for the above question
+n=input()
+x=n.swapcase()
+print(x)
+##take the input from the user and add +10 to it and check the new number whether it even or odd 
+n=int(input())
+x=n+10
+if(x%2==0):
+  print("even")
+else:
+  print("odd")
