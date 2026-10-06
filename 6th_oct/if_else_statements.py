@@ -13,9 +13,12 @@ else:
     print("Not eligible for driving license")
 
 #Write a program to check if a number is positive or negative.
-n=int(input("enter a number:"))
-if n>=0:
-      print("positive number")
+n = int(input("Enter a number: "))
+if n >= 0:
+    if n == 0:
+        print("Zero")
+    else:
+        print("Positive number")
 else:
     print("Negative number")
     

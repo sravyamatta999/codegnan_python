@@ -12,7 +12,7 @@ if user>=18:
 
 #Write a program to check if a number is positive.
 n=int(input("enter a number:"))
-if n >=0:
+if n >0:
       print("positive number")
 
 #Write a program to check if a number is negative.
